@@ -1,3 +1,5 @@
+import model.*
+
 fun main() {
     val dio = DIO()
 

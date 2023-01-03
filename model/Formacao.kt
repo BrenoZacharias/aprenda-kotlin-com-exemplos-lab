@@ -1,4 +1,6 @@
-data class Formacao(var nome: String, var nivel:Nivel, val conteudos: MutableList<ConteudoEducacional>) {
+package model
+
+data class Formacao(var nome: String, var nivel: Nivel, val conteudos: MutableList<ConteudoEducacional>) {
 
     val inscritos = mutableMapOf<Int, Usuario>()
 
